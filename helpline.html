@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Skin Cancer Detector</title>
+	<link rel="icon" href="assets/img/logo.png" sizes="32x32" type="image/png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Courgette&family=Kaushan+Script&family=Passion+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Oleo+Script&display=swap" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="assets/style/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/style/style2.css">
+	<link href="assets/style/stylefaq.css" rel="stylesheet">
+
+<style>
+	/*.doctors
+	{
+		padding-top: 200px;
+	}
+	@media (min-width: 320px) and (max-height: 767px)
+	{
+		.doctors
+		{
+			padding-top: 100px;
+			padding-bottom: 100px;
+			height:350px;
+		}
+		.doctors h1
+		{
+			font-size:25px;
+		}
+		.doctors h3
+		{
+			font-size: 20px;
+		}
+	}
+	@media (min-width: 768px) and (max-height: 1000px)
+	{
+		.doctors
+		{
+			padding-top: 150px;
+		}
+	}*/
+</style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#"><img src="assets/img/logo.png"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="predictor.php">Predictor</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="tracker.html">Tracker</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="helpline.html">Helpline</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!-- Doctor's List -->
+<div class="doctors"><section class="inner">
+	<div align="center"><h1><font color="#fff">Search Dermatologist based on your location</font></h1></div>
+	<div align="center"><h3><font color="#fff">Search according to you State</font></h3></div>
+	<section class="searchDoctor">
+		<table align="center">
+			<form method="post" action="show_result.php">
+				 <tr><td><input type="text" name="state" placeholder="Search by State Name" required="" autocomplete="off" style="width: 65vw;text-align: center;height: 5vh;color: #018383;font-weight: bold;"></td></tr>
+				 <tr align="center"><td><button style="background-color: #2f2519;border:none;height: 40px;border-radius: 15px;font-size: 25px;color: #fff;">Search List</button></td></tr>
+			</form>
+		</table>
+	</section>
+</section></div>
+<br>
+
+<!--FAQ Section-->
+<section id="faq" class="faq">
+        <div class="container">
+
+          <div class="section-title" data-aos="fade-down">
+            <p><i>F.A.Q</i></p>
+          </div>
+
+          <div class="faq-list">
+            <ul>
+              <li data-aos="fade-up">
+                <i class="bx bx-help-circle icon-help"></i><a data-toggle="collapse" class="collapse" href="#faq-list-1">Basic Treatment of Skin Cancer?</a>
+                <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
+                  <p>
+                    Chemotherapy is a cancer treatment that uses drugs to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Chemotherapy for basal cell carcinoma, squamous cell carcinoma of the skin, and actinic keratosis is usually topical (applied to the skin in a cream or lotion).
+                  </p>
+                </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="100">
+                <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2" class="collapsed">What kind of food shouls be consumed to fight against Skin Cancer?</a>
+                <div id="faq-list-2" class="collapse" data-parent=".faq-list">
+                  <p>
+                    Carrots and leafy greens like kale and spinach are great beta carotene-packed additions to your meals, even breakfast smoothies. In particular, leafy greens are high in the antioxidants lutein and zeaxanthin. These have been found to protect against wrinkling, sun damage, and even skin cancer.
+                  </p>
+                </div>
+              </li>
+
+              <li data-aos="fade-up" data-aos-delay="100">
+                <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3" class="collapsed">How is skin cancer prevented?</a>
+                <div id="faq-list-3" class="collapse" data-parent=".faq-list">
+                  <p>
+                    1. Stay in the shade, especially during midday hours.<br>
+                    2. Wear clothing that covers your arms and legs.<br>
+                    3. Wear a hat with a wide brim to shade your face, head, ears, and neck.<br>
+                    4. Wear sunglasses that wrap around and block both UVA and UVB rays.<br>
+                  </p>
+                </div>
+              </li>
+              
+
+            </ul>
+          </div>
+
+        </div>
+      </section>
+
+
+<!-- Phamacuetical Stores -->
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-12">
+			<h2>Connect to the Online Phamacuetical Stores</h2>
+		</div>
+		<div class="col-12 pharmstores padding">
+			<a href="https://www.1mg.com/"><img src="assets/img/stores/1mg.png"></a>
+			<a href="https://www.medplusmart.com/"><img src="assets/img/stores/medplus.jpg"></a>
+			<a href="https://www.medlife.com/"><img src="assets/img/stores/medlife.png"></a>
+			<a href="https://pharmeasy.in/"><img src="assets/img/stores/pharmeasy.png"></a>
+			<a href="https://www.netmeds.com/"><img src="assets/img/stores/netmeds.jpg"></a>
+		</div>
+	</div>
+</div>
+
+<!--- Footer -->
+<footer id="contact">
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<br>
+				<br>
+				<img src="assets/img/blackcoders.png">
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Our Hours</h5>
+				<hr class="light">
+				<p>We are ready to serve you anythime</p>
+				<p>We are availabe for 24X7 Hours</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Contact Us</h5>
+				<hr class="light">
+				<p>Phone Number : </p>
+				<p>Email Address : blackcoders2020@gmail.com</p>
+				<p>Address : The Narula Institute of Technology, Nilganj Road, Agarpara, North 24 Parganas, Kolkata-700109, WB, India</p>
+			</div>
+			<div class="col-12">
+				<hr class="light-100">
+				<h5>blackcoders.com</h5>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="//code.tidio.co/ojdqmgx8ayqoypa267brg52hwkb3rarn.js" async></script>
+<script src="assets/vendor/jquery/jquery.min.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
