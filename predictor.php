@@ -169,7 +169,7 @@
 				<hr class="light">
 				<h5>Contact Us</h5>
 				<hr class="light">
-				<p>Phone Number : </p>
+				<p>Phone Number : 1234567890</p>
 				<p>Email Address : blackcoders2020@gmail.com</p>
 				<p>Address : The Narula Institute of Technology, Nilganj Road, Agarpara, North 24 Parganas, Kolkata-700109, WB, India</p>
 			</div>
