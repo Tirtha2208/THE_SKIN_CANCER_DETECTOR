@@ -1,4 +1,4 @@
-# THE_SKIN_DETECTOR  
+# CAECINOMATOR (THE SKIN CANCER DETECTOR)
 # Website Link :    https://carcinomator.000webhostapp.com/
 
 
