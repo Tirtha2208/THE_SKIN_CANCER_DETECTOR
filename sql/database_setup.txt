@@ -1,0 +1,12 @@
+INSTRUCTIONS TO SET THE DATABASE.
+
+create a Datadase name : doctorlist
+import the sql file given here into your local device mysql
+
+Set the server to localhost
+give the username as root
+leave the password part as black
+Write the database name as doctorlist
+
+Example
+("localhost","root","","doctorlist")
