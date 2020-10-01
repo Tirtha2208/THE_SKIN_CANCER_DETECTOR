@@ -2,7 +2,7 @@
 # Website Link :    https://carcinomator.000webhostapp.com/
 
 
-Project Description:
+**Project Description:**
 Skin Cancer is the abnormal growth of the skin cells. There are two main categories of Skin Cancer – Keratinocyte Carcinoma and Melanoma. There are various symptoms of Skin Cancer but people neglect those and considers that as an ordinary skin infection. Thus, in order to check whether that infection is a Skin Cancer or an ordinary infection we planned of developing a Skin Cancer Detector named "Carcinomator".
 
 The Skin Cancer Detector will give us an early prediction of the skin disease i.e. either Skin Cancer or not and with that information the sufferers can treat it quickly. We will be developing a Web Application comprising of four tabs which are as follows:-
