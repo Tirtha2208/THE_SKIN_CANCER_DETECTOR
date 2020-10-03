@@ -24,5 +24,4 @@ The Extra Feature we added it in is an automated AI based chatbot which will pro
 
 **3. BEST CANCER TREATMENT HOSPITALS OF WORLD:** https://drive.google.com/file/d/1dubHpV9Ir-GdvS0r49ALTG4hJLCEJDus/view?usp=sharing
 
-# LINK FOR THE PPT FILE: 
-https://drive.google.com/file/d/1pSIlkghF-WlX5ZoRLBTQ4HgM1-ishSnR/view?usp=sharing
+# LINK FOR THE PPT FILE:  https://drive.google.com/file/d/1pSIlkghF-WlX5ZoRLBTQ4HgM1-ishSnR/view?usp=sharing
