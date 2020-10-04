@@ -30,4 +30,4 @@ https://drive.google.com/file/d/1pSIlkghF-WlX5ZoRLBTQ4HgM1-ishSnR/view?usp=shari
 # LINK FOR THE VIDEOS:
 **1. WEBSITE DEMONSTRATION VIDEO:** https://youtu.be/oaeRhrvkU98
 
-**2. CHATBOT DEMOSTRATION VIDEO:** https://youtu.be/C0_eK8RDEFw
+**2. CHATBOT DEMONSTRATION VIDEO:** https://youtu.be/C0_eK8RDEFw
