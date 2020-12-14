@@ -119,9 +119,10 @@
 			<h1 class="display-4" align="center">The Scan Detector</h1>
 			<hr class="light-200">
 <section class="inner-page">
-        
+        <center>
 	<h1>Run the Script in the Google Colab</h1>
-	<a href="https://colab.research.google.com/drive/1YLbPj_janfVChj2mG50Kht-zk1heTwft?usp=sharing">The Detector</a>
+	<a href="https://colab.research.google.com/drive/1YLbPj_janfVChj2mG50Kht-zk1heTwft?usp=sharing" ><font face="courier" color="#fd8c04">The Detector</font></a>
+	</center>
             <!-- <iframe align="centre" src="inner_predict1.html" scrolling="no" frameborder="no" width="400px"></iframe> -->
        
       </section>
